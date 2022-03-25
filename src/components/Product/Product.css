@@ -31,4 +31,6 @@ margin-top: 0px;
     height: 40px;
     position: absolute;
     bottom: 0;
+    color: #ffffff;
+    background-color: rgba(75, 160, 194, 0.411);
 }
