@@ -2,55 +2,55 @@
     {
         "id": "623df0aa2f9b908cb420c7ae",
         "image": "./vespa1.jpg",
-        "price": 111629,
-        "name": "Davenport Hampton"
+        "price": 120000,
+        "name": "Vespa vl 150"
     },
     {
         "id": "623df0aa9f95d1f6ac89c692",
         "image": "./vespa2.jpg",
-        "price": 126604,
-        "name": "Sellers Shepard"
+        "price": 130000,
+        "name": "Vespa vxl 324"
     },
     {
         "id": "623df0aafbdf9c0f38a9c2f9",
         "image": "./vespa3.jpg",
         "price": 126757,
-        "name": "Riggs Lynn"
+        "name": "Vespa euro 25 "
     },
     {
         "id": "623df0aa574d7b6d29d8c50f",
         "image": "./vespa4.jpg",
-        "price": 127641,
-        "name": "Shawn Waters"
+        "price": 250000,
+        "name": "Vespa america 55"
     },
     {
         "id": "623df0aa4a08d9efc583114c",
         "image": "./vespa5.jpg",
-        "price": 102001,
-        "name": "Haney Henry"
+        "price": 180000,
+        "name": "Vespa russia 88"
     },
     {
         "id": "623df0aaf8d9faba14c723e4",
         "image": "./vespa6.jpg",
-        "price": 110761,
-        "name": "Eleanor Medina"
+        "price": 190000,
+        "name": "Vespa elon 00"
     },
     {
         "id": "623df0aa4d33eef5c0d7ad08",
         "image": "./vespa7.jpg",
-        "price": 119380,
-        "name": "Schwartz Barnett"
+        "price": 170000,
+        "name": "Vespa chin 46"
     },
     {
         "id": "623df0aaac63e0aa7c39267e",
         "image": "./vespa8.jpg",
-        "price": 129362,
-        "name": "Agnes England"
+        "price": 210000,
+        "name": "Vespa England 99"
     },
     {
         "id": "623df0aaff4b9ae6b32b5e87",
         "image": "./vespa9.jpg",
-        "price": 117662,
-        "name": "Patricia Nelson"
+        "price": 144000,
+        "name": "Vespa Nelson 787"
     }
 ]

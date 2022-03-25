@@ -9,11 +9,15 @@ const Shop = () => {
             .then(res => res.json())
             .then(data => setVespa(data))
     }, [])
+
+    const addToCart = () => {
+        console.log('fuck off');
+    }
     return (
         <div className='shop-container'>
             <div className='vespa-container'>
                 {
-                    vespa.map(baaal => <Product key={baaal.id} hashi={baaal}></Product>)
+                    vespa.map(singleVespa => <Product key={singleVespa.id} singleVespa={singleVespa} addToCart={addToCart}></Product>)
                 }
 
             </div>
