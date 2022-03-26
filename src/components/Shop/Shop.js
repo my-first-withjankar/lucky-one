@@ -5,19 +5,29 @@ import './Shop.css'
 
 const Shop = () => {
     const [vespa, setVespa] = useState([]);
-    const [cart, setCart] = useState([])
+    let [cart, setCart] = useState([])
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setVespa(data))
     }, [])
 
-    const addToCart = (vespaDetails) => {
-        // console.log(vespaDetails);
-        const newCart = [...cart, vespaDetails];
+    const addToCart = (singleVespa) => {
+        let newCart = [];
+        const exist = cart.find(product => product.id === singleVespa.id)
+        if (!exist && cart.length < 4) {
+            newCart = [...cart, singleVespa];
+        }
+        else {
+            alert('opps , you cannot add more')
+            return;
+        }
         setCart(newCart)
     }
-    // console.log(cart);
+    const chanceBtn = () => {
+        let newCart = [];
+        setCart(newCart)
+    }
     return (
         <div className='shop-container'>
             <div className='vespa-container'>
@@ -30,18 +40,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart">
-                <div className="wow">
-                    <h1>Wait For Luck</h1>
-                    {
-                        cart.map(baal => <Order
-                            key={baal.id}
-                            baal={baal}
-                        ></Order>)
-                    }
-
-                    <button>Find lucky One</button>
-                    <button>Take another chance</button>
-                </div>
+                <Order cart={cart} chanceBtn={chanceBtn}></Order>
             </div>
 
         </div>

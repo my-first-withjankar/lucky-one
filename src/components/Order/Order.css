@@ -3,3 +3,31 @@
     font-family: 'Lato';
     font-size: 20px;
 }
+.lucky-btn{
+    display: block;
+    padding: 13px 25px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border: 1px solid rgba(54, 20, 20, 0.507);
+    cursor: pointer;
+}
+.chance-btn{
+    display: block;
+    padding: 13px 25px;
+    border-radius: 5px;
+    margin-left: 25px; 
+    border: 1px solid rgba(54, 20, 20, 0.507);
+    cursor: pointer;
+}
+.chance-btn:hover{
+    background-color: beige;
+}
+.lucky-btn:hover{
+    background-color: beige;
+}
+.wow{
+    position: sticky;
+    top: 0;
+}
