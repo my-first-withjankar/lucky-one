@@ -14,7 +14,8 @@ const Product = ({ singleVespa, addToCart }) => {
                 <p className='product-name'>{name}</p>
                 <p className='product-price'>Price: ${price}</p>
             </div>
-            <p><button onClick={() => addToCart(singleVespa)} className='btn'>add to cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button></p>
+            <button onClick={() => addToCart(singleVespa)} className='btn'><p >add to cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></p></button>
+
         </div>
     );
 };

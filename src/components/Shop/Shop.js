@@ -29,17 +29,19 @@ const Shop = () => {
                         ></Product>)
                 }
             </div>
-            <div className="order-summery">
-                <h1>Wait For Luck</h1>
-                {
-                    cart.map(baal => <Order
-                        key={baal.id}
-                        baal={baal}
-                    ></Order>)
-                }
+            <div className="cart">
+                <div className="wow">
+                    <h1>Wait For Luck</h1>
+                    {
+                        cart.map(baal => <Order
+                            key={baal.id}
+                            baal={baal}
+                        ></Order>)
+                    }
 
-                <button>Find lucky One</button>
-                <button>Take another chance</button>
+                    <button>Find lucky One</button>
+                    <button>Take another chance</button>
+                </div>
             </div>
 
         </div>
