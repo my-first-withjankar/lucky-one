@@ -19,4 +19,13 @@
     text-align: center;
     margin-top: 34px;
 }
-
+@media screen and (max-width:600px){
+    .shop-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .vespa-container{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+}

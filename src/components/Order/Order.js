@@ -4,7 +4,6 @@ import './Order.css'
 
 const Order = ({ cart, chanceBtn }) => {
     const [getOne, setGetOne] = useState([])
-    console.log(cart);
     const get = (cart) => {
         let luckyOne = cart[Math.floor(Math.random() * cart.length)]
         setGetOne(luckyOne);
@@ -12,7 +11,7 @@ const Order = ({ cart, chanceBtn }) => {
     return (
         <div className='choosen'>
             <h1>Wait For Luck</h1>
-            <div className='wow'>
+            <div>
 
                 {
                     cart.map(singleProduct => <SingleVespa key={singleProduct.id} singleProduct={singleProduct}></SingleVespa>)
